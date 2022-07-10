@@ -1,0 +1,58 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+
+    box-sizing: border-box;
+    padding-top: 30px;
+    border: 2px solid grey;
+    margin: 20px;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: grey;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.description > h2 {
+    text-align: center;
+    color: orangered;
+}
+
+.description > p {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px;
+    color: grey;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn > button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background: lightseagreen;
+    border: none;
+}
