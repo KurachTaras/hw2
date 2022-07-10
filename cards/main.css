@@ -1,0 +1,43 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    padding: 160px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.card > button {
+    width: 210px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+h2 {
+    margin-top: 85px;
+}
+
+.card > p {
+    width: 210px;
+    padding: 20px;
+    color: gray;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 0 10px;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
